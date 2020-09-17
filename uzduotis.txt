@@ -1,0 +1,32 @@
+Užduotis:
+
+Parašyti registracijos ir prisijungimo sistemėlę, naudojant PHP7 ir MYSQL.
+
+Užduoties aprašymas:
+Naudojame objektinį PHP (OOP PHP) +
+Sukurti registracijos formą (email, vardas, pavardė, telefono numeris, slaptažodis, pakartoti slaptažodį). +
+Sukurti prisijungimo formą (email, slaptažodis)+
+Sukurti registracijos validaciją+                                                                     
+Rodyti validacijos klaidas formos viršuje+
+Slaptažodis duomenų bazėje turi būti koduojamas +
+Prisijungus turi atsidaryti vartotojo profilis, kuriame rodome el. pašto adresą, vardą, pavardę, telefono numerį, registracijos datą ir atsijungimo mygtuką.+
+Prisijungus registracijos bei prisijungimo formos nepasiekiamos (peradresavimas į profilio puslapį)+
+Atsijungus peradresuojame atgal į prisijungimo formą.+
+Kode detaliai komentuoti savo veiksmus+
+
+Vartotojų duomenų bazės struktūra:
+user_id, +
+email, +
+name, +
+last_name, +
+phone, +
+password, +
+registered_at (fiksuojame kada vartotojas užsiregistravo), +
+last_login_at (fiksuojame paskutinio prisijungimo laiką) +
+
+Registracijos taisyklės (validation): 
+teisingas email formatas (vardas@domenas.com), +
+e-mail laukas turi būti unikalus duomenų bazėje, +
+slaptažodį turi sudaryti 8-12 simbolių, +
+slaptažodį turi sudaryti bent vienas skaičius ir bent viena didžioji raidė, +
+įvestas antras slaptažodis turi sutapti su pirmuoju + 
